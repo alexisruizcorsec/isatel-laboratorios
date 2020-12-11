@@ -870,7 +870,7 @@ echo '
 							<br>
 							<table>
 								<tr>
-									<td>En mi trabajo debo brindar servicio a clientes o usuarios:</td>
+									<td>Soy jefe de otros trabajadores:</td>
 									<td>Sí</td>
 									<td>'; $sumaAtenPreDos = $p44_R2a+$p45_R2a+$p46_R2a; if ($sumaAtenPreDos >= 1) { echo 'X'; } echo '</td>
 									<td>No</td>

@@ -1285,7 +1285,7 @@ echo '
 								<tr>
 									<td>Soy jefe de otros trabajadores:</td>
 									<td>Sí</td>
-									<td>'; $sumaAtenPreUno = $p65_R3a+$p66_R3a+$p67_R3a+$p68_R3a; if ($sumaAtenPreUno >= 1) { echo 'X'; } echo '</td>
+									<td>'; $sumaAtenPreUno = $p69_R3a+$p70_R3a+$p71_R3a+$p72_R3a; if ($sumaAtenPreUno >= 1) { echo 'X'; } echo '</td>
 									<td>No</td>
 									<td>'; if ($sumaAtenPreUno == NULL) { echo 'X'; } echo '</td>
 								</tr>
