@@ -31,7 +31,7 @@ session_destroy();
             position: relative;
         }
         body{
-        background: #646569;
+        background: #4d8ebf;
         /* background: url(img/fondo.png) no-repeat center center fixed; AQUÍ FONDO DE PAGINA DE INICIO */
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -60,7 +60,7 @@ session_destroy();
             align-items: center;
         }
         .inputLogin{
-            border: 1px #003E5E solid;
+            border: 1px #343A41 solid;
             background-color: rgba(255, 255, 255, .0);
             height: 50px;
             width: 100%;
@@ -88,7 +88,7 @@ session_destroy();
             border-radius: 5px;
         }
         .boton:hover{
-            background-color: #343A41;
+            background-color: #4d8ebf;
             color: #FFF;
             transition-duration: .2s;
         }
@@ -107,7 +107,7 @@ session_destroy();
                 <table style="width: 90%; max-width: 440; padding: 20px; margin: auto;">
                     <tr>
                         <td style="text-align: center;">
-                            <img src="img/logo.svg" alt="LOGO" style="width: 90%;">
+                            <img src="img/logo.png" alt="LOGO" style="width: 90%;">
                         </td>
                     </tr>
                     <tr>

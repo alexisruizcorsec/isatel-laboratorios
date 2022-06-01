@@ -1,10 +1,9 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
-    font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
 }
-
 
 /*
 
@@ -16,81 +15,79 @@ body{
 }
 
 */
-$azulFuerte: #2C3E50;
-$azulAgua: #C8EBDF;
-$azulAguaDos: #BBE6D6;
-$azulAguaTres: #A4C6B9;
+$azulFuerte: #2c3e50;
+$azulAgua: #c8ebdf;
+$azulAguaDos: #bbe6d6;
+$azulAguaTres: #a4c6b9;
 
-$cyan: #646569;
-$cyanDos: #646569;
+$cyan: #4d8ebf;
+$cyanDos: #4d8ebf;
 
-.divMenuBotones:hover{
-	cursor:pointer;
-	.redondo{
-			margin-top: -10px;
-			background-color: $cyanDos;
-			transition-duration: .5s;
-		}
-	p{
-		color: $cyanDos;
-		transition-duration: .5s;
-	}
-
+.divMenuBotones:hover {
+  cursor: pointer;
+  .redondo {
+    margin-top: -10px;
+    background-color: $cyanDos;
+    transition-duration: 0.5s;
+  }
+  p {
+    color: $cyanDos;
+    transition-duration: 0.5s;
+  }
 }
 
-a{
-	text-decoration: none;
-	transition-duration: .3s;
+a {
+  text-decoration: none;
+  transition-duration: 0.3s;
 }
 
-a:link
-	{
-		text-decoration:none;
-	}
-
-.redondo{
-			width: 110px;
-			height: 110px;
-			border-radius: 50%;
-			transition-duration: .5s;
-			background-color: $cyan;
-		}
-
-.icono{
-	margin-top: 40px;
-	font-size: 2em;
+a:link {
+  text-decoration: none;
 }
 
-.contenido{
-	color: $azulFuerte;
+.redondo {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  transition-duration: 0.5s;
+  background-color: $cyan;
 }
 
-.form-control{
-	border: 1px solid #E4F5EF;
+.icono {
+  margin-top: 40px;
+  font-size: 2em;
 }
 
-.agregar{
-	width: 100%;
-	background: #fff;
-    color: $azulAgua;
+.contenido {
+  color: $azulFuerte;
+}
+
+.form-control {
+  border: 1px solid #e4f5ef;
+}
+
+.agregar {
+  width: 100%;
+  background: #fff;
+  color: $azulAgua;
 }
 
 .agregar:hover {
-	background-color: $azulAguaTres;
-	border: 1px solid $azulAguaTres;
-	color: #FFF;
+  background-color: $azulAguaTres;
+  border: 1px solid $azulAguaTres;
+  color: #fff;
 }
 /*#########################*/
 .btn-infoDos {
-	background-color: $azulAguaDos;
-	border: 1px solid $azulAguaDos;
-	color: #FFF;
+  background-color: $azulAguaDos;
+  border: 1px solid $azulAguaDos;
+  color: #fff;
 }
 
 .btn-infoDos:hover {
-	background-color: $azulAguaTres;
-	border: 1px solid $azulAguaTres;
-	color: #FFF;
+  background-color: $azulAguaTres;
+  border: 1px solid $azulAguaTres;
+  color: #fff;
 }
 /*#########################*/
 .my-custom-scrollbar {
@@ -103,49 +100,46 @@ a:link
   display: block;
 }
 
-.lChica{
-	font-size: .9em;
+.lChica {
+  font-size: 0.9em;
 }
-
 
 .cContenido {
-  background-color: #FFF; }
-
-.modoMano{
-	cursor:pointer;
+  background-color: #fff;
 }
 
+.modoMano {
+  cursor: pointer;
+}
 
 /*#######################
 CENTRADO
 #######################*/
 .abs-center {
-	  display: flex;
-	  align-items: center;
-	  justify-content: center;
-	  min-height: 100vh;
-	}
-	 
-.form {
-	  width: 450px;
-	}
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
 
+.form {
+  width: 450px;
+}
 
 /*#######################
 RADIOBUTTOM
 #######################*/
 .bg-primary {
-	background-color: #646569!important;
+  background-color: #4d8ebf !important;
 }
 
 /*#######################
 MAYUSCULAS
 #######################*/
 
-.mayusculas{
-	text-transform: uppercase;
+.mayusculas {
+  text-transform: uppercase;
 }
-
 
 /* estilos de prueba */
 /*.container {

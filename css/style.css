@@ -1,8 +1,10 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+/* line 3, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 body {
-  font-family: 'Poppins', sans-serif;
-  background: #fafafa; }
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+}
 
 /*
 
@@ -14,102 +16,148 @@ body{
 }
 
 */
+/* line 26, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .divMenuBotones:hover {
-  cursor: pointer; }
-  .divMenuBotones:hover .redondo {
-    margin-top: -10px;
-    background-color: #646569;
-    transition-duration: .5s; }
-  .divMenuBotones:hover p {
-    color: #646569;
-    transition-duration: .5s; }
+  cursor: pointer;
+}
 
+/* line 28, ../../../../MAMP/htdocs/isatel/scss/style.scss */
+.divMenuBotones:hover .redondo {
+  margin-top: -10px;
+  background-color: #4d8ebf;
+  transition-duration: 0.5s;
+}
+
+/* line 33, ../../../../MAMP/htdocs/isatel/scss/style.scss */
+.divMenuBotones:hover p {
+  color: #4d8ebf;
+  transition-duration: 0.5s;
+}
+
+/* line 39, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 a {
   text-decoration: none;
-  transition-duration: .3s; }
+  transition-duration: 0.3s;
+}
 
+/* line 44, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 a:link {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+/* line 48, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .redondo {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  transition-duration: .5s;
-  background-color: #646569; }
+  transition-duration: 0.5s;
+  background-color: #4d8ebf;
+}
 
+/* line 56, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .icono {
   margin-top: 40px;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
+/* line 61, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .contenido {
-  color: #2C3E50; }
+  color: #2c3e50;
+}
 
+/* line 65, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .form-control {
-  border: 1px solid #E4F5EF; }
+  border: 1px solid #e4f5ef;
+}
 
+/* line 69, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .agregar {
   width: 100%;
   background: #fff;
-  color: #C8EBDF; }
+  color: #c8ebdf;
+}
 
+/* line 75, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .agregar:hover {
-  background-color: #A4C6B9;
-  border: 1px solid #A4C6B9;
-  color: #FFF; }
+  background-color: #a4c6b9;
+  border: 1px solid #a4c6b9;
+  color: #fff;
+}
 
 /*#########################*/
+/* line 81, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .btn-infoDos {
-  background-color: #BBE6D6;
-  border: 1px solid #BBE6D6;
-  color: #FFF; }
+  background-color: #bbe6d6;
+  border: 1px solid #bbe6d6;
+  color: #fff;
+}
 
+/* line 87, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .btn-infoDos:hover {
-  background-color: #A4C6B9;
-  border: 1px solid #A4C6B9;
-  color: #FFF; }
+  background-color: #a4c6b9;
+  border: 1px solid #a4c6b9;
+  color: #fff;
+}
 
 /*#########################*/
+/* line 93, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .my-custom-scrollbar {
   position: relative;
   height: 100%;
-  overflow: auto; }
+  overflow: auto;
+}
 
+/* line 99, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .table-wrapper-scroll-y {
-  display: block; }
+  display: block;
+}
 
+/* line 103, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .lChica {
-  font-size: .9em; }
+  font-size: 0.9em;
+}
 
+/* line 107, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .cContenido {
-  background-color: #FFF; }
+  background-color: #fff;
+}
 
+/* line 111, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .modoMano {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 /*#######################
 CENTRADO
 #######################*/
+/* line 118, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .abs-center {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; }
+  min-height: 100vh;
+}
 
+/* line 125, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .form {
-  width: 450px; }
+  width: 450px;
+}
 
 /*#######################
 RADIOBUTTOM
 #######################*/
+/* line 132, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .bg-primary {
-  background-color: #646569 !important; }
+  background-color: #4d8ebf !important;
+}
 
 /*#######################
 MAYUSCULAS
 #######################*/
+/* line 140, ../../../../MAMP/htdocs/isatel/scss/style.scss */
 .mayusculas {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 /* estilos de prueba */
 /*.container {

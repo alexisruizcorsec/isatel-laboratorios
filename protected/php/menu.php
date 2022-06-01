@@ -188,7 +188,7 @@ if (isset($_SESSION['codeMd5']) && !empty($_SESSION['codeMd5'])) {
 									
 									<!-- ###### COMENTAR PARA DESACTIVAR GUÍA DE REFERENCIA II ###### -->
 
-								    <div class="card" <?php echo $ocultarOptMenuDos; ?>>
+<!-- 								    <div class="card" <?php echo $ocultarOptMenuDos; ?>>
 								    	<div class="card-header">
 								    		<h2 class="mb-0">
 								    			<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#guia02" aria-expanded="false">
@@ -206,13 +206,13 @@ if (isset($_SESSION['codeMd5']) && !empty($_SESSION['codeMd5'])) {
 								        		</div>	
 								    		</div>
 								    	</div>
-									</div>
+									</div> -->
 									
 									<!-- ###### COMENTAR PARA DESACTIVAR GUÍA DE REFERENCIA II ###### -->
 									
 									<!-- ###### COMENTAR PARA DESACTIVAR GUÍA DE REFERENCIA III ###### -->
 
-								    <!-- <div class="card" <?php echo $ocultarOptMenuTres; ?>>
+								    <div class="card" <?php echo $ocultarOptMenuTres; ?>>
 								    	<div class="card-header">
 								    		<h2 class="mb-0">
 								    			<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#guia03" aria-expanded="false">
@@ -230,7 +230,7 @@ if (isset($_SESSION['codeMd5']) && !empty($_SESSION['codeMd5'])) {
 								        		</div>	
 								    		</div>
 								    	</div>
-									</div> -->
+									</div>
 									
 									<!-- ###### COMENTAR PARA DESACTIVAR GUÍA DE REFERENCIA III ###### -->
 
